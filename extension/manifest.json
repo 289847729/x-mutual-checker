@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "X 互关筛查助手 (X Mutual Checker)",
+  "version": "1.4.1",
+  "description": "一键筛查你的 X (Twitter) 账号上哪些人没有回关你（单向关注）、互相关注及粉丝列表，支持一键导出 CSV。",
+  "permissions": [
+    "activeTab",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "X 互关筛查助手"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
