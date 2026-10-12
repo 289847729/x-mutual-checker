@@ -17,6 +17,7 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE & Local Tooling
 .idea/
 .vscode/
+.opencode/
