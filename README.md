@@ -43,10 +43,22 @@
 
 ## 🖼️ 效果预览
 
-![扫描结果预览](docs/screenshots/scan-result-redacted.png)
-*(注：上图展示了扫描统计、分类标签切换、搜索框及操作按钮，示例中账号已做脱敏处理)*
+### 1. 筛查结果与管理面板
+扫描完成后，自动计算并展示「关注总人数」、「未回关我」、「双向互关」和「粉丝待回关」四项核心指标。支持切换不同状态分类、一键取关、主页直达以及导出 CSV 备份。
+
+<div align="center">
+  <img src="docs/screenshots/scan-result-panel.png" alt="筛查结果与管理面板" width="85%" />
+</div>
+
+### 2. X 网页端一键呼出悬浮球
+登录 X 官方网页后，无需繁琐操作，页面右下角会自动常驻蓝色「𝕏 互关筛查」悬浮按钮，随时随地点开即查。
+
+<div align="center">
+  <img src="docs/screenshots/floating-button.png" alt="X 网页端右下角悬浮按钮" width="85%" />
+</div>
 
 ---
+
 
 ## 🚀 安装与使用指南
 
